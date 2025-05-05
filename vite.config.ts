@@ -19,7 +19,10 @@ export default defineConfig({
     port: 5173,
     allowedHosts: true,
     hmr: {
-      overlay: false // Disables the error overlay if you only want console errors
+      host: 'preview--beauty-salon-vertical.poehali.dev',
+      clientPort: 443,
+      protocol: 'wss',
+      overlay: false 
     }
   },
 });
